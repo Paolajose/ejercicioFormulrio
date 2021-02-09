@@ -5,9 +5,10 @@ let usuario=document.getElementById("username");
 let contraseña=document.getElementById("contraseña");
 
 
+
 formulario.addEventListener('submit', (event) => {
     event.preventDefault()
-    const formData = new FormData(event.currentTarget)
+    const formData = new FormData(event.currentTarget);
 
     data={
     correo: formData.get("correo"),
@@ -28,9 +29,9 @@ formulario.addEventListener('submit', (event) => {
 
        swal.fire({
         title:"Bienvenido",
-        text: "Sus datos han sido guardados coreectamente",
+        text: "Sus datos han sido guardados correctamente",
         icon: "success",
-        footer: '<span class="rojo"> Esta informacion es confidencial</span>',
+        footer: '<span class="rojo"> Esta informacion es confidencial</span>'
        
     })
   })

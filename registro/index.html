@@ -11,12 +11,12 @@
 
 <body>
 
-    <div id="container" class="container">
+    <div id="container" class="container" >
 
         <h2> Bienvenido</h2>
         <h3>Ingrese sus datos para regisrtarse</h3>
 
-        <form id="formulario">
+        <form id="formulario" action="../acceso/login.html">
 
         <div class="form-floating mb-3">
             <input type="email" class="form-control" id="correo"  name="correo"placeholder="name@example.com">
@@ -48,14 +48,16 @@
             
             </div>
            
-          <a class="" href="../acceso/login.html"></a>
-          <input type="submit" class="btn btn-primary" value="Registrarse">
+      method: 'POST',
+      <button type="submit" class="btn tbn-primary" >Registrarse</button>
           </form>
 
           <h3>Ya esta registrardo? <a href="../acceso/login.html">Inicie sesion</a>
 
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="./funcionalidad.js"></script>
     
 </body>
 </html>
