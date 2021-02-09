@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    background: url("../fondo\ c.jpg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    width: 600px;
+    margin: 600px;
+    background: rgba(0, 0,0,0.5);
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    border-radius: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin: 5px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    
+}
+
+.form-floating{
+   text-align: center;
+    width: 450px;
+    margin:auto;
+    background: rgba(255, 230, 247, 0.493);
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    
+    
+}
+
+.input-group{
+    text-align: center;
+    width: 450px;
+    margin:auto;
+    background: rgba(255, 230, 247, 0.493);
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+   
+
+}
+
+.form-select{
+    align-items: center;
+    width: 200px;
+    margin:auto;
+    background: rgba(255, 230, 247, 0.493);
+    padding: 15px 15px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  
+
+}
+
+h3{
+    color: white;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+
+}
+
+.form-check{
+    text-align: center;
+    width: 200px;
+    margin:auto;
+    background: rgba(255, 230, 247, 0.493);
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+   
+}
+
+.btn{
+    display: flex;
+    text-align: center;
+    width: 190px;
+    margin:auto;
+    background: rgba(255, 230, 247, 0.493);
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+  
+}
