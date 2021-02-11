@@ -11,26 +11,31 @@
 
 <body>
 
-    <div id="container" class="container" >
+  <div class="contenedor">
+
+    <div id="container" class="container flex-cantainer">
+
+      <div class="contenido"> 
+        
 
         <h2> Bienvenido</h2>
         <h3>Ingrese sus datos para regisrtarse</h3>
 
-        <form id="formulario" action="../acceso/login.html">
+        <form id="formulario">
 
-        <div class="form-floating mb-3">
+        <div class="form-floating form-flex">
             <input type="email" class="form-control" id="correo"  name="correo"placeholder="name@example.com">
             <label for="floatingInput">Correo Electronico</label>
           </div>
 
-          <div class="form-floating">
+          <div class="form-floating form-flex">
             <input type="text" class="form-control" id="username" name="username" placeholder="usuaruio">
             <label for="floatingPassword">Usuario</label>
           </div>
 
          
 
-          <div class="form-floating">
+          <div class="form-floating form-flex">
             <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="Password">
             <label for="floatingPassword">Contraseña</label>
           </div>
@@ -47,15 +52,16 @@
                 <label class="form-check-label" for="flexSwitchCheckDefault">Acepta usted los terminos y condiciones?</label>
             
             </div>
-           
-      method: 'POST',
-      <button type="submit" class="btn tbn-primary" >Registrarse</button>
+    
+      <button type="submit" class="btn tbn-primary" onclick="window.location=''">Registrarse</button>
           </form>
 
           <h3>Ya esta registrardo? <a href="../acceso/login.html">Inicie sesion</a>
 
 
     </div>
+    </div>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="./funcionalidad.js"></script>
     
